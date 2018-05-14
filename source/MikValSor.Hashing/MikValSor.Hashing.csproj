@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45;</TargetFrameworks>
+    <RootNamespace>MikValSor.Security.Cryptography</RootNamespace>
+    <Authors>Mikkel Valentin Sørensen</Authors>
+    <Company>Mikkel Valentin Sørensen</Company>
+    <Description>.NET library for hashing in immutable value based style.</Description>
+    <Copyright>Mikkel Valentin Sørensen</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/mikkelvalentinsorensen/MikValSor.Hashing/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mikkelvalentinsorensen/MikValSor.Hashing</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/mikkelvalentinsorensen/MikValSor/master/icon/icon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/mikkelvalentinsorensen/MikValSor.Hashing</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Hashing Hash Immutable Value Type .NET MikValSor</PackageTags>
+    <PackageReleaseNotes>v1.0.0
+- Initial release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>English</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MikValSor.Base64" Version="1.0.2" />
+    <PackageReference Include="MikValSor.ImmutableCollection" Version="1.0.5" />
+    <PackageReference Include="MikValSor.ImmutableValidator" Version="1.0.6" />
+    <PackageReference Include="MikValSor.SerializableValidator" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>
