@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MikValSor.Base64, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MikValSor.Base64.1.0.2\lib\net45\MikValSor.Base64.dll</HintPath>
-    </Reference>
     <Reference Include="MikValSor.ImmutableCollection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MikValSor.ImmutableCollection.1.0.5\lib\net45\MikValSor.ImmutableCollection.dll</HintPath>
     </Reference>

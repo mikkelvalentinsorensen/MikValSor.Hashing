@@ -23,8 +23,6 @@
   <ItemGroup>
     <PackageReference Include="MikValSor.Base64" Version="1.0.2" />
     <PackageReference Include="MikValSor.ImmutableCollection" Version="1.0.5" />
-    <PackageReference Include="MikValSor.ImmutableValidator" Version="1.0.6" />
-    <PackageReference Include="MikValSor.SerializableValidator" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
