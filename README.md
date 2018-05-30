@@ -1,5 +1,7 @@
 .NET library for hashing in immutable value based style.
 
+Nuget package: [https://www.nuget.org/packages/MikValSor.Hashing](https://www.nuget.org/packages/MikValSor.Hashing)
+
 ## Example:
 ```cs
 void CreateHashExample()
